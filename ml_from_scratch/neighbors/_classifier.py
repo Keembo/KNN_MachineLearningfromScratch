@@ -114,7 +114,7 @@ class KNeighborsClassifier(NearestNeighbor):
         neigh_proba = self.predict_proba(X)
 
         # Predict y
-        ind_max = np.argmax(neigh_proba, axis=1)
+        ind_max = np.argmax(neigh_proba, axis=0)
         y_pred = self.classes_[ind_max]
 
         return y_pred
