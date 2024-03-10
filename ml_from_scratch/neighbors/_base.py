@@ -34,7 +34,7 @@ class NearestNeighbor:
     Parameters
     ----------
     n_neighbors : int, default=5
-        The number of neighbors to use forknn search.
+        The number of neighbors to use for knn search.
     weights : str or callable, default='uniform'
         weight function used in prediction.  Possible values:
 
